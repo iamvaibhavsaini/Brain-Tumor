@@ -3,7 +3,7 @@ from PIL import Image
 from img_classification import teachable_machine_classification
 st.title("Brain Tumor Detection using ConvNets")
 st.header("Based on a public dataset of MRI scans")
-image = Image.open('Logo1.jpg')
+image = Image.open('Logo1.jpeg')
 st.image(image, caption='Brain Tumor Detection using ConvNets',use_column_width=True)
 st.text("Upload an MRI scan of a person who may be unsure of seeking further medical counsel, and our algorithm will help you in deciding if to seek further treatment")
 
